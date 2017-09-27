@@ -31,7 +31,10 @@ let getFileList = function (path) {
   // })
 
   walker.on('end', function () {
-    console.log('已解析文件:' + files);
+    files.forEach(function(ele){
+      console.log('已解析文件:' + ele)
+    })
+    // console.log('已解析文件:' + files);
     // console.log('dirs:'+dirs);
   })
 }
