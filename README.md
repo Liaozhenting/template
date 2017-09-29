@@ -1,5 +1,5 @@
 # template
-Node.js合并复用html模板
+Node.js + gulp 合并静态页模版，文件更新自动热重载。
 
 使用的是ejs的语法.其实你用ejs文件也可以.
 
@@ -22,7 +22,8 @@ HTML文件放在src文件夹.(必须)
 请先确定安装了Node.js
 ```
 npm install
-node build
+gulp dev 启动一个自动热重载的服务器，默认端口3000.浏览器可以预览目录下的页面
+gulp ejs 合并模版
 ```
 遍历src里面的文件,输出到dist目录.
 
