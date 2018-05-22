@@ -4,14 +4,18 @@
   "description": "合并复用html模板",
   "main": "build.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev" : "gulp dev",
+    "build": "gulp ejs"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "browser-sync": "^2.18.13",
     "ejs": "^2.5.7",
-    "gulp": "^3.9.1",
     "walk": "^2.3.9"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1"
   }
 }

@@ -22,8 +22,8 @@ HTML文件放在src文件夹.(必须)
 请先确定安装了Node.js
 ```
 npm install
-gulp dev 启动一个自动热重载的服务器，默认端口3000.浏览器可以预览目录下的页面
-gulp ejs 合并模版
+npm run dev 启动一个自动热重载的服务器，默认端口3000.浏览器可以预览目录下的页面
+npm run ejs 合并模版
 ```
 遍历src里面的文件,输出到dist目录.
 
